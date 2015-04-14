@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 39d152bef8a1b2143a12956c82e97ac0
+timeCreated: 1428987249
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: placeholdeo_v01_05b___singleMesh:chest
+    100004: placeholdeo_v01_05b___singleMesh:head
+    100006: placeholdeo_v01_05b___singleMesh:headGroup
+    100008: placeholdeo_v01_05b___singleMesh:L_ankle
+    100010: placeholdeo_v01_05b___singleMesh:L_ankleFK
+    100012: placeholdeo_v01_05b___singleMesh:L_armG
+    100014: placeholdeo_v01_05b___singleMesh:L_armIK
+    100016: placeholdeo_v01_05b___singleMesh:L_ball
+    100018: placeholdeo_v01_05b___singleMesh:L_clavicle
+    100020: placeholdeo_v01_05b___singleMesh:L_elbow
+    100022: placeholdeo_v01_05b___singleMesh:L_elbowG
+    100024: placeholdeo_v01_05b___singleMesh:L_femur
+    100026: placeholdeo_v01_05b___singleMesh:L_fing0
+    100028: placeholdeo_v01_05b___singleMesh:L_fing1
+    100030: placeholdeo_v01_05b___singleMesh:L_fing2
+    100032: placeholdeo_v01_05b___singleMesh:L_fing3
+    100034: placeholdeo_v01_05b___singleMesh:L_FK_ankle
+    100036: placeholdeo_v01_05b___singleMesh:L_FK_ball
+    100038: placeholdeo_v01_05b___singleMesh:L_FK_femur
+    100040: placeholdeo_v01_05b___singleMesh:L_FK_humerus
+    100042: placeholdeo_v01_05b___singleMesh:L_FK_knee
+    100044: placeholdeo_v01_05b___singleMesh:L_FK_toe
+    100046: placeholdeo_v01_05b___singleMesh:L_FK_ulna
+    100048: placeholdeo_v01_05b___singleMesh:L_FK_wrist
+    100050: placeholdeo_v01_05b___singleMesh:L_humerus
+    100052: placeholdeo_v01_05b___singleMesh:L_IK_ankle
+    100054: placeholdeo_v01_05b___singleMesh:L_IK_ball
+    100056: placeholdeo_v01_05b___singleMesh:L_IK_femur
+    100058: placeholdeo_v01_05b___singleMesh:L_IK_humerus
+    100060: placeholdeo_v01_05b___singleMesh:L_IK_knee
+    100062: placeholdeo_v01_05b___singleMesh:L_IK_radius
+    100064: placeholdeo_v01_05b___singleMesh:L_IK_toe
+    100066: placeholdeo_v01_05b___singleMesh:L_IK_ulna
+    100068: placeholdeo_v01_05b___singleMesh:L_IK_wrist
+    100070: placeholdeo_v01_05b___singleMesh:L_index0
+    100072: placeholdeo_v01_05b___singleMesh:L_index1
+    100074: placeholdeo_v01_05b___singleMesh:L_index2
+    100076: placeholdeo_v01_05b___singleMesh:L_index3
+    100078: placeholdeo_v01_05b___singleMesh:L_knee
+    100080: placeholdeo_v01_05b___singleMesh:L_kneeFK
+    100082: placeholdeo_v01_05b___singleMesh:L_legFK
+    100084: placeholdeo_v01_05b___singleMesh:L_radius
+    100086: placeholdeo_v01_05b___singleMesh:L_shoulder
+    100088: placeholdeo_v01_05b___singleMesh:L_shrug
+    100090: placeholdeo_v01_05b___singleMesh:L_thighFK
+    100092: placeholdeo_v01_05b___singleMesh:L_thumb0
+    100094: placeholdeo_v01_05b___singleMesh:L_thumb1
+    100096: placeholdeo_v01_05b___singleMesh:L_thumb2
+    100098: placeholdeo_v01_05b___singleMesh:L_thumb3
+    100100: placeholdeo_v01_05b___singleMesh:L_toe
+    100102: placeholdeo_v01_05b___singleMesh:L_toeFK
+    100104: placeholdeo_v01_05b___singleMesh:L_ulna
+    100106: placeholdeo_v01_05b___singleMesh:L_wrist
+    100108: placeholdeo_v01_05b___singleMesh:L_wrist 1
+    100110: placeholdeo_v01_05b___singleMesh:L_wristG
+    100112: placeholdeo_v01_05b___singleMesh:L_wristOffset
+    100114: placeholdeo_v01_05b___singleMesh:L_wristOffsetG
+    100116: placeholdeo_v01_05b___singleMesh:lumbar
+    100118: placeholdeo_v01_05b___singleMesh:lumbar 1
+    100120: placeholdeo_v01_05b___singleMesh:masterControl
+    100122: placeholdeo_v01_05b___singleMesh:mesh
+    100124: placeholdeo_v01_05b___singleMesh:mid_chest
+    100126: placeholdeo_v01_05b___singleMesh:neck
+    100128: placeholdeo_v01_05b___singleMesh:neck 1
+    100130: placeholdeo_v01_05b___singleMesh:pelvis
+    100132: placeholdeo_v01_05b___singleMesh:pelvis 1
+    100134: placeholdeo_v01_05b___singleMesh:placeholdeoMesh
+    100136: placeholdeo_v01_05b___singleMesh:R_ankle
+    100138: placeholdeo_v01_05b___singleMesh:R_ankleFK
+    100140: placeholdeo_v01_05b___singleMesh:R_armG
+    100142: placeholdeo_v01_05b___singleMesh:R_armIK
+    100144: placeholdeo_v01_05b___singleMesh:R_ball
+    100146: placeholdeo_v01_05b___singleMesh:R_clavicle
+    100148: placeholdeo_v01_05b___singleMesh:R_elbow
+    100150: placeholdeo_v01_05b___singleMesh:R_elbowG
+    100152: placeholdeo_v01_05b___singleMesh:R_femur
+    100154: placeholdeo_v01_05b___singleMesh:R_fing0
+    100156: placeholdeo_v01_05b___singleMesh:R_fing1
+    100158: placeholdeo_v01_05b___singleMesh:R_fing2
+    100160: placeholdeo_v01_05b___singleMesh:R_fing3
+    100162: placeholdeo_v01_05b___singleMesh:R_FK_ankle
+    100164: placeholdeo_v01_05b___singleMesh:R_FK_ball
+    100166: placeholdeo_v01_05b___singleMesh:R_FK_femur
+    100168: placeholdeo_v01_05b___singleMesh:R_FK_humerus
+    100170: placeholdeo_v01_05b___singleMesh:R_FK_knee
+    100172: placeholdeo_v01_05b___singleMesh:R_FK_toe
+    100174: placeholdeo_v01_05b___singleMesh:R_FK_ulna
+    100176: placeholdeo_v01_05b___singleMesh:R_FK_wrist
+    100178: placeholdeo_v01_05b___singleMesh:R_humerus
+    100180: placeholdeo_v01_05b___singleMesh:R_IK_ankle
+    100182: placeholdeo_v01_05b___singleMesh:R_IK_ball
+    100184: placeholdeo_v01_05b___singleMesh:R_IK_femur
+    100186: placeholdeo_v01_05b___singleMesh:R_IK_humerus
+    100188: placeholdeo_v01_05b___singleMesh:R_IK_knee
+    100190: placeholdeo_v01_05b___singleMesh:R_IK_radius
+    100192: placeholdeo_v01_05b___singleMesh:R_IK_toe
+    100194: placeholdeo_v01_05b___singleMesh:R_IK_ulna
+    100196: placeholdeo_v01_05b___singleMesh:R_IK_wrist
+    100198: placeholdeo_v01_05b___singleMesh:R_index0
+    100200: placeholdeo_v01_05b___singleMesh:R_index1
+    100202: placeholdeo_v01_05b___singleMesh:R_index2
+    100204: placeholdeo_v01_05b___singleMesh:R_index3
+    100206: placeholdeo_v01_05b___singleMesh:R_knee
+    100208: placeholdeo_v01_05b___singleMesh:R_kneeFK
+    100210: placeholdeo_v01_05b___singleMesh:R_legFK
+    100212: placeholdeo_v01_05b___singleMesh:R_mirror
+    100214: placeholdeo_v01_05b___singleMesh:R_radius
+    100216: placeholdeo_v01_05b___singleMesh:R_shoulder
+    100218: placeholdeo_v01_05b___singleMesh:R_shrug
+    100220: placeholdeo_v01_05b___singleMesh:R_thighFK
+    100222: placeholdeo_v01_05b___singleMesh:R_thumb0
+    100224: placeholdeo_v01_05b___singleMesh:R_thumb1
+    100226: placeholdeo_v01_05b___singleMesh:R_thumb2
+    100228: placeholdeo_v01_05b___singleMesh:R_thumb3
+    100230: placeholdeo_v01_05b___singleMesh:R_toe
+    100232: placeholdeo_v01_05b___singleMesh:R_toeFK
+    100234: placeholdeo_v01_05b___singleMesh:R_ulna
+    100236: placeholdeo_v01_05b___singleMesh:R_wrist
+    100238: placeholdeo_v01_05b___singleMesh:R_wrist 1
+    100240: placeholdeo_v01_05b___singleMesh:R_wristG
+    100242: placeholdeo_v01_05b___singleMesh:root
+    100244: placeholdeo_v01_05b___singleMesh:root 1
+    100246: placeholdeo_v01_05b___singleMesh:skeleton
+    100248: placeholdeo_v01_05b___singleMesh:skull
+    100250: placeholdeo_v01_05b___singleMesh:thoracic
+    100252: placeholdeo_v01_05b___singleMesh:thoracic_mid
+    400000: //RootNode
+    400002: placeholdeo_v01_05b___singleMesh:chest
+    400004: placeholdeo_v01_05b___singleMesh:head
+    400006: placeholdeo_v01_05b___singleMesh:headGroup
+    400008: placeholdeo_v01_05b___singleMesh:L_ankle
+    400010: placeholdeo_v01_05b___singleMesh:L_ankleFK
+    400012: placeholdeo_v01_05b___singleMesh:L_armG
+    400014: placeholdeo_v01_05b___singleMesh:L_armIK
+    400016: placeholdeo_v01_05b___singleMesh:L_ball
+    400018: placeholdeo_v01_05b___singleMesh:L_clavicle
+    400020: placeholdeo_v01_05b___singleMesh:L_elbow
+    400022: placeholdeo_v01_05b___singleMesh:L_elbowG
+    400024: placeholdeo_v01_05b___singleMesh:L_femur
+    400026: placeholdeo_v01_05b___singleMesh:L_fing0
+    400028: placeholdeo_v01_05b___singleMesh:L_fing1
+    400030: placeholdeo_v01_05b___singleMesh:L_fing2
+    400032: placeholdeo_v01_05b___singleMesh:L_fing3
+    400034: placeholdeo_v01_05b___singleMesh:L_FK_ankle
+    400036: placeholdeo_v01_05b___singleMesh:L_FK_ball
+    400038: placeholdeo_v01_05b___singleMesh:L_FK_femur
+    400040: placeholdeo_v01_05b___singleMesh:L_FK_humerus
+    400042: placeholdeo_v01_05b___singleMesh:L_FK_knee
+    400044: placeholdeo_v01_05b___singleMesh:L_FK_toe
+    400046: placeholdeo_v01_05b___singleMesh:L_FK_ulna
+    400048: placeholdeo_v01_05b___singleMesh:L_FK_wrist
+    400050: placeholdeo_v01_05b___singleMesh:L_humerus
+    400052: placeholdeo_v01_05b___singleMesh:L_IK_ankle
+    400054: placeholdeo_v01_05b___singleMesh:L_IK_ball
+    400056: placeholdeo_v01_05b___singleMesh:L_IK_femur
+    400058: placeholdeo_v01_05b___singleMesh:L_IK_humerus
+    400060: placeholdeo_v01_05b___singleMesh:L_IK_knee
+    400062: placeholdeo_v01_05b___singleMesh:L_IK_radius
+    400064: placeholdeo_v01_05b___singleMesh:L_IK_toe
+    400066: placeholdeo_v01_05b___singleMesh:L_IK_ulna
+    400068: placeholdeo_v01_05b___singleMesh:L_IK_wrist
+    400070: placeholdeo_v01_05b___singleMesh:L_index0
+    400072: placeholdeo_v01_05b___singleMesh:L_index1
+    400074: placeholdeo_v01_05b___singleMesh:L_index2
+    400076: placeholdeo_v01_05b___singleMesh:L_index3
+    400078: placeholdeo_v01_05b___singleMesh:L_knee
+    400080: placeholdeo_v01_05b___singleMesh:L_kneeFK
+    400082: placeholdeo_v01_05b___singleMesh:L_legFK
+    400084: placeholdeo_v01_05b___singleMesh:L_radius
+    400086: placeholdeo_v01_05b___singleMesh:L_shoulder
+    400088: placeholdeo_v01_05b___singleMesh:L_shrug
+    400090: placeholdeo_v01_05b___singleMesh:L_thighFK
+    400092: placeholdeo_v01_05b___singleMesh:L_thumb0
+    400094: placeholdeo_v01_05b___singleMesh:L_thumb1
+    400096: placeholdeo_v01_05b___singleMesh:L_thumb2
+    400098: placeholdeo_v01_05b___singleMesh:L_thumb3
+    400100: placeholdeo_v01_05b___singleMesh:L_toe
+    400102: placeholdeo_v01_05b___singleMesh:L_toeFK
+    400104: placeholdeo_v01_05b___singleMesh:L_ulna
+    400106: placeholdeo_v01_05b___singleMesh:L_wrist
+    400108: placeholdeo_v01_05b___singleMesh:L_wrist 1
+    400110: placeholdeo_v01_05b___singleMesh:L_wristG
+    400112: placeholdeo_v01_05b___singleMesh:L_wristOffset
+    400114: placeholdeo_v01_05b___singleMesh:L_wristOffsetG
+    400116: placeholdeo_v01_05b___singleMesh:lumbar
+    400118: placeholdeo_v01_05b___singleMesh:lumbar 1
+    400120: placeholdeo_v01_05b___singleMesh:masterControl
+    400122: placeholdeo_v01_05b___singleMesh:mesh
+    400124: placeholdeo_v01_05b___singleMesh:mid_chest
+    400126: placeholdeo_v01_05b___singleMesh:neck
+    400128: placeholdeo_v01_05b___singleMesh:neck 1
+    400130: placeholdeo_v01_05b___singleMesh:pelvis
+    400132: placeholdeo_v01_05b___singleMesh:pelvis 1
+    400134: placeholdeo_v01_05b___singleMesh:placeholdeoMesh
+    400136: placeholdeo_v01_05b___singleMesh:R_ankle
+    400138: placeholdeo_v01_05b___singleMesh:R_ankleFK
+    400140: placeholdeo_v01_05b___singleMesh:R_armG
+    400142: placeholdeo_v01_05b___singleMesh:R_armIK
+    400144: placeholdeo_v01_05b___singleMesh:R_ball
+    400146: placeholdeo_v01_05b___singleMesh:R_clavicle
+    400148: placeholdeo_v01_05b___singleMesh:R_elbow
+    400150: placeholdeo_v01_05b___singleMesh:R_elbowG
+    400152: placeholdeo_v01_05b___singleMesh:R_femur
+    400154: placeholdeo_v01_05b___singleMesh:R_fing0
+    400156: placeholdeo_v01_05b___singleMesh:R_fing1
+    400158: placeholdeo_v01_05b___singleMesh:R_fing2
+    400160: placeholdeo_v01_05b___singleMesh:R_fing3
+    400162: placeholdeo_v01_05b___singleMesh:R_FK_ankle
+    400164: placeholdeo_v01_05b___singleMesh:R_FK_ball
+    400166: placeholdeo_v01_05b___singleMesh:R_FK_femur
+    400168: placeholdeo_v01_05b___singleMesh:R_FK_humerus
+    400170: placeholdeo_v01_05b___singleMesh:R_FK_knee
+    400172: placeholdeo_v01_05b___singleMesh:R_FK_toe
+    400174: placeholdeo_v01_05b___singleMesh:R_FK_ulna
+    400176: placeholdeo_v01_05b___singleMesh:R_FK_wrist
+    400178: placeholdeo_v01_05b___singleMesh:R_humerus
+    400180: placeholdeo_v01_05b___singleMesh:R_IK_ankle
+    400182: placeholdeo_v01_05b___singleMesh:R_IK_ball
+    400184: placeholdeo_v01_05b___singleMesh:R_IK_femur
+    400186: placeholdeo_v01_05b___singleMesh:R_IK_humerus
+    400188: placeholdeo_v01_05b___singleMesh:R_IK_knee
+    400190: placeholdeo_v01_05b___singleMesh:R_IK_radius
+    400192: placeholdeo_v01_05b___singleMesh:R_IK_toe
+    400194: placeholdeo_v01_05b___singleMesh:R_IK_ulna
+    400196: placeholdeo_v01_05b___singleMesh:R_IK_wrist
+    400198: placeholdeo_v01_05b___singleMesh:R_index0
+    400200: placeholdeo_v01_05b___singleMesh:R_index1
+    400202: placeholdeo_v01_05b___singleMesh:R_index2
+    400204: placeholdeo_v01_05b___singleMesh:R_index3
+    400206: placeholdeo_v01_05b___singleMesh:R_knee
+    400208: placeholdeo_v01_05b___singleMesh:R_kneeFK
+    400210: placeholdeo_v01_05b___singleMesh:R_legFK
+    400212: placeholdeo_v01_05b___singleMesh:R_mirror
+    400214: placeholdeo_v01_05b___singleMesh:R_radius
+    400216: placeholdeo_v01_05b___singleMesh:R_shoulder
+    400218: placeholdeo_v01_05b___singleMesh:R_shrug
+    400220: placeholdeo_v01_05b___singleMesh:R_thighFK
+    400222: placeholdeo_v01_05b___singleMesh:R_thumb0
+    400224: placeholdeo_v01_05b___singleMesh:R_thumb1
+    400226: placeholdeo_v01_05b___singleMesh:R_thumb2
+    400228: placeholdeo_v01_05b___singleMesh:R_thumb3
+    400230: placeholdeo_v01_05b___singleMesh:R_toe
+    400232: placeholdeo_v01_05b___singleMesh:R_toeFK
+    400234: placeholdeo_v01_05b___singleMesh:R_ulna
+    400236: placeholdeo_v01_05b___singleMesh:R_wrist
+    400238: placeholdeo_v01_05b___singleMesh:R_wrist 1
+    400240: placeholdeo_v01_05b___singleMesh:R_wristG
+    400242: placeholdeo_v01_05b___singleMesh:root
+    400244: placeholdeo_v01_05b___singleMesh:root 1
+    400246: placeholdeo_v01_05b___singleMesh:skeleton
+    400248: placeholdeo_v01_05b___singleMesh:skull
+    400250: placeholdeo_v01_05b___singleMesh:thoracic
+    400252: placeholdeo_v01_05b___singleMesh:thoracic_mid
+    4300000: placeholdeo_v01_05b___singleMesh:placeholdeoMesh
+    7400000: Run1
+    9500000: //RootNode
+    13700000: placeholdeo_v01_05b___singleMesh:placeholdeoMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:headGroup
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:headGroup/placeholdeo_v01_05b___singleMesh:head
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG/placeholdeo_v01_05b___singleMesh:L_shoulder
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG/placeholdeo_v01_05b___singleMesh:L_shoulder/placeholdeo_v01_05b___singleMesh:L_elbowG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG/placeholdeo_v01_05b___singleMesh:L_shoulder/placeholdeo_v01_05b___singleMesh:L_elbowG/placeholdeo_v01_05b___singleMesh:L_elbow
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG/placeholdeo_v01_05b___singleMesh:L_shoulder/placeholdeo_v01_05b___singleMesh:L_elbowG/placeholdeo_v01_05b___singleMesh:L_elbow/placeholdeo_v01_05b___singleMesh:L_wristG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armG/placeholdeo_v01_05b___singleMesh:L_shoulder/placeholdeo_v01_05b___singleMesh:L_elbowG/placeholdeo_v01_05b___singleMesh:L_elbow/placeholdeo_v01_05b___singleMesh:L_wristG/placeholdeo_v01_05b___singleMesh:L_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_armIK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_wristOffsetG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:L_wristOffsetG/placeholdeo_v01_05b___singleMesh:L_wristOffset
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG/placeholdeo_v01_05b___singleMesh:R_shoulder
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG/placeholdeo_v01_05b___singleMesh:R_shoulder/placeholdeo_v01_05b___singleMesh:R_elbowG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG/placeholdeo_v01_05b___singleMesh:R_shoulder/placeholdeo_v01_05b___singleMesh:R_elbowG/placeholdeo_v01_05b___singleMesh:R_elbow
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG/placeholdeo_v01_05b___singleMesh:R_shoulder/placeholdeo_v01_05b___singleMesh:R_elbowG/placeholdeo_v01_05b___singleMesh:R_elbow/placeholdeo_v01_05b___singleMesh:R_wristG
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armG/placeholdeo_v01_05b___singleMesh:R_shoulder/placeholdeo_v01_05b___singleMesh:R_elbowG/placeholdeo_v01_05b___singleMesh:R_elbow/placeholdeo_v01_05b___singleMesh:R_wristG/placeholdeo_v01_05b___singleMesh:R_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:R_armIK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:L_legFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:L_legFK/placeholdeo_v01_05b___singleMesh:L_thighFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:L_legFK/placeholdeo_v01_05b___singleMesh:L_thighFK/placeholdeo_v01_05b___singleMesh:L_kneeFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:L_legFK/placeholdeo_v01_05b___singleMesh:L_thighFK/placeholdeo_v01_05b___singleMesh:L_kneeFK/placeholdeo_v01_05b___singleMesh:L_ankleFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:L_legFK/placeholdeo_v01_05b___singleMesh:L_thighFK/placeholdeo_v01_05b___singleMesh:L_kneeFK/placeholdeo_v01_05b___singleMesh:L_ankleFK/placeholdeo_v01_05b___singleMesh:L_toeFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest/placeholdeo_v01_05b___singleMesh:mid_chest
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest/placeholdeo_v01_05b___singleMesh:mid_chest/placeholdeo_v01_05b___singleMesh:L_shrug
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest/placeholdeo_v01_05b___singleMesh:mid_chest/placeholdeo_v01_05b___singleMesh:neck
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest/placeholdeo_v01_05b___singleMesh:mid_chest/placeholdeo_v01_05b___singleMesh:R_mirror
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:lumbar/placeholdeo_v01_05b___singleMesh:chest/placeholdeo_v01_05b___singleMesh:mid_chest/placeholdeo_v01_05b___singleMesh:R_mirror/placeholdeo_v01_05b___singleMesh:R_shrug
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:pelvis
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:R_legFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:R_legFK/placeholdeo_v01_05b___singleMesh:R_thighFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:R_legFK/placeholdeo_v01_05b___singleMesh:R_thighFK/placeholdeo_v01_05b___singleMesh:R_kneeFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:R_legFK/placeholdeo_v01_05b___singleMesh:R_thighFK/placeholdeo_v01_05b___singleMesh:R_kneeFK/placeholdeo_v01_05b___singleMesh:R_ankleFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:masterControl/placeholdeo_v01_05b___singleMesh:root/placeholdeo_v01_05b___singleMesh:R_legFK/placeholdeo_v01_05b___singleMesh:R_thighFK/placeholdeo_v01_05b___singleMesh:R_kneeFK/placeholdeo_v01_05b___singleMesh:R_ankleFK/placeholdeo_v01_05b___singleMesh:R_toeFK
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:mesh
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:mesh/placeholdeo_v01_05b___singleMesh:placeholdeoMesh
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_FK_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_FK_humerus/placeholdeo_v01_05b___singleMesh:L_FK_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_FK_humerus/placeholdeo_v01_05b___singleMesh:L_FK_ulna/placeholdeo_v01_05b___singleMesh:L_FK_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_fing0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_fing0/placeholdeo_v01_05b___singleMesh:L_fing1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_fing0/placeholdeo_v01_05b___singleMesh:L_fing1/placeholdeo_v01_05b___singleMesh:L_fing2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_fing0/placeholdeo_v01_05b___singleMesh:L_fing1/placeholdeo_v01_05b___singleMesh:L_fing2/placeholdeo_v01_05b___singleMesh:L_fing3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_index0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_index0/placeholdeo_v01_05b___singleMesh:L_index1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_index0/placeholdeo_v01_05b___singleMesh:L_index1/placeholdeo_v01_05b___singleMesh:L_index2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_index0/placeholdeo_v01_05b___singleMesh:L_index1/placeholdeo_v01_05b___singleMesh:L_index2/placeholdeo_v01_05b___singleMesh:L_index3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_thumb0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_thumb0/placeholdeo_v01_05b___singleMesh:L_thumb1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_thumb0/placeholdeo_v01_05b___singleMesh:L_thumb1/placeholdeo_v01_05b___singleMesh:L_thumb2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_humerus/placeholdeo_v01_05b___singleMesh:L_ulna/placeholdeo_v01_05b___singleMesh:L_radius/placeholdeo_v01_05b___singleMesh:L_wrist
+          1/placeholdeo_v01_05b___singleMesh:L_thumb0/placeholdeo_v01_05b___singleMesh:L_thumb1/placeholdeo_v01_05b___singleMesh:L_thumb2/placeholdeo_v01_05b___singleMesh:L_thumb3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_IK_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_IK_humerus/placeholdeo_v01_05b___singleMesh:L_IK_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_IK_humerus/placeholdeo_v01_05b___singleMesh:L_IK_ulna/placeholdeo_v01_05b___singleMesh:L_IK_radius
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:L_clavicle/placeholdeo_v01_05b___singleMesh:L_IK_humerus/placeholdeo_v01_05b___singleMesh:L_IK_ulna/placeholdeo_v01_05b___singleMesh:L_IK_radius/placeholdeo_v01_05b___singleMesh:L_IK_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:neck
+          1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:neck
+          1/placeholdeo_v01_05b___singleMesh:skull
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_FK_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_FK_humerus/placeholdeo_v01_05b___singleMesh:R_FK_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_FK_humerus/placeholdeo_v01_05b___singleMesh:R_FK_ulna/placeholdeo_v01_05b___singleMesh:R_FK_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_fing0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_fing0/placeholdeo_v01_05b___singleMesh:R_fing1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_fing0/placeholdeo_v01_05b___singleMesh:R_fing1/placeholdeo_v01_05b___singleMesh:R_fing2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_fing0/placeholdeo_v01_05b___singleMesh:R_fing1/placeholdeo_v01_05b___singleMesh:R_fing2/placeholdeo_v01_05b___singleMesh:R_fing3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_index0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_index0/placeholdeo_v01_05b___singleMesh:R_index1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_index0/placeholdeo_v01_05b___singleMesh:R_index1/placeholdeo_v01_05b___singleMesh:R_index2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_index0/placeholdeo_v01_05b___singleMesh:R_index1/placeholdeo_v01_05b___singleMesh:R_index2/placeholdeo_v01_05b___singleMesh:R_index3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_thumb0
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_thumb0/placeholdeo_v01_05b___singleMesh:R_thumb1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_thumb0/placeholdeo_v01_05b___singleMesh:R_thumb1/placeholdeo_v01_05b___singleMesh:R_thumb2
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_humerus/placeholdeo_v01_05b___singleMesh:R_ulna/placeholdeo_v01_05b___singleMesh:R_radius/placeholdeo_v01_05b___singleMesh:R_wrist
+          1/placeholdeo_v01_05b___singleMesh:R_thumb0/placeholdeo_v01_05b___singleMesh:R_thumb1/placeholdeo_v01_05b___singleMesh:R_thumb2/placeholdeo_v01_05b___singleMesh:R_thumb3
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_IK_humerus
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_IK_humerus/placeholdeo_v01_05b___singleMesh:R_IK_ulna
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_IK_humerus/placeholdeo_v01_05b___singleMesh:R_IK_ulna/placeholdeo_v01_05b___singleMesh:R_IK_radius
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:lumbar 1/placeholdeo_v01_05b___singleMesh:thoracic/placeholdeo_v01_05b___singleMesh:thoracic_mid/placeholdeo_v01_05b___singleMesh:R_clavicle/placeholdeo_v01_05b___singleMesh:R_IK_humerus/placeholdeo_v01_05b___singleMesh:R_IK_ulna/placeholdeo_v01_05b___singleMesh:R_IK_radius/placeholdeo_v01_05b___singleMesh:R_IK_wrist
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_femur/placeholdeo_v01_05b___singleMesh:L_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_femur/placeholdeo_v01_05b___singleMesh:L_knee/placeholdeo_v01_05b___singleMesh:L_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_femur/placeholdeo_v01_05b___singleMesh:L_knee/placeholdeo_v01_05b___singleMesh:L_ankle/placeholdeo_v01_05b___singleMesh:L_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_femur/placeholdeo_v01_05b___singleMesh:L_knee/placeholdeo_v01_05b___singleMesh:L_ankle/placeholdeo_v01_05b___singleMesh:L_ball/placeholdeo_v01_05b___singleMesh:L_toe
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_FK_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_FK_femur/placeholdeo_v01_05b___singleMesh:L_FK_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_FK_femur/placeholdeo_v01_05b___singleMesh:L_FK_knee/placeholdeo_v01_05b___singleMesh:L_FK_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_FK_femur/placeholdeo_v01_05b___singleMesh:L_FK_knee/placeholdeo_v01_05b___singleMesh:L_FK_ankle/placeholdeo_v01_05b___singleMesh:L_FK_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_FK_femur/placeholdeo_v01_05b___singleMesh:L_FK_knee/placeholdeo_v01_05b___singleMesh:L_FK_ankle/placeholdeo_v01_05b___singleMesh:L_FK_ball/placeholdeo_v01_05b___singleMesh:L_FK_toe
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_IK_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_IK_femur/placeholdeo_v01_05b___singleMesh:L_IK_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_IK_femur/placeholdeo_v01_05b___singleMesh:L_IK_knee/placeholdeo_v01_05b___singleMesh:L_IK_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_IK_femur/placeholdeo_v01_05b___singleMesh:L_IK_knee/placeholdeo_v01_05b___singleMesh:L_IK_ankle/placeholdeo_v01_05b___singleMesh:L_IK_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:L_IK_femur/placeholdeo_v01_05b___singleMesh:L_IK_knee/placeholdeo_v01_05b___singleMesh:L_IK_ankle/placeholdeo_v01_05b___singleMesh:L_IK_ball/placeholdeo_v01_05b___singleMesh:L_IK_toe
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_femur/placeholdeo_v01_05b___singleMesh:R_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_femur/placeholdeo_v01_05b___singleMesh:R_knee/placeholdeo_v01_05b___singleMesh:R_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_femur/placeholdeo_v01_05b___singleMesh:R_knee/placeholdeo_v01_05b___singleMesh:R_ankle/placeholdeo_v01_05b___singleMesh:R_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_femur/placeholdeo_v01_05b___singleMesh:R_knee/placeholdeo_v01_05b___singleMesh:R_ankle/placeholdeo_v01_05b___singleMesh:R_ball/placeholdeo_v01_05b___singleMesh:R_toe
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_FK_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_FK_femur/placeholdeo_v01_05b___singleMesh:R_FK_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_FK_femur/placeholdeo_v01_05b___singleMesh:R_FK_knee/placeholdeo_v01_05b___singleMesh:R_FK_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_FK_femur/placeholdeo_v01_05b___singleMesh:R_FK_knee/placeholdeo_v01_05b___singleMesh:R_FK_ankle/placeholdeo_v01_05b___singleMesh:R_FK_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_FK_femur/placeholdeo_v01_05b___singleMesh:R_FK_knee/placeholdeo_v01_05b___singleMesh:R_FK_ankle/placeholdeo_v01_05b___singleMesh:R_FK_ball/placeholdeo_v01_05b___singleMesh:R_FK_toe
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_IK_femur
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_IK_femur/placeholdeo_v01_05b___singleMesh:R_IK_knee
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_IK_femur/placeholdeo_v01_05b___singleMesh:R_IK_knee/placeholdeo_v01_05b___singleMesh:R_IK_ankle
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_IK_femur/placeholdeo_v01_05b___singleMesh:R_IK_knee/placeholdeo_v01_05b___singleMesh:R_IK_ankle/placeholdeo_v01_05b___singleMesh:R_IK_ball
+        weight: 1
+      - path: placeholdeo_v01_05b___singleMesh:skeleton/placeholdeo_v01_05b___singleMesh:root
+          1/placeholdeo_v01_05b___singleMesh:pelvis 1/placeholdeo_v01_05b___singleMesh:R_IK_femur/placeholdeo_v01_05b___singleMesh:R_IK_knee/placeholdeo_v01_05b___singleMesh:R_IK_ankle/placeholdeo_v01_05b___singleMesh:R_IK_ball/placeholdeo_v01_05b___singleMesh:R_IK_toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

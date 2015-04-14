@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: 57d5bcb9caf3849439c8137b46efd86e
+timeCreated: 1428987232
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: placeholdeo_v01:chest
+    100004: placeholdeo_v01:head
+    100006: placeholdeo_v01:head 1
+    100008: placeholdeo_v01:headGroup
+    100010: placeholdeo_v01:L_ankle
+    100012: placeholdeo_v01:L_ankleFK
+    100014: placeholdeo_v01:L_armG
+    100016: placeholdeo_v01:L_armIK
+    100018: placeholdeo_v01:L_ball
+    100020: placeholdeo_v01:L_clavicle
+    100022: placeholdeo_v01:L_elbow
+    100024: placeholdeo_v01:L_elbowG
+    100026: placeholdeo_v01:L_femur
+    100028: placeholdeo_v01:L_fing0
+    100030: placeholdeo_v01:L_fing1
+    100032: placeholdeo_v01:L_fing2
+    100034: placeholdeo_v01:L_fing3
+    100036: placeholdeo_v01:L_fingers
+    100038: placeholdeo_v01:L_FK_ankle
+    100040: placeholdeo_v01:L_FK_ball
+    100042: placeholdeo_v01:L_FK_femur
+    100044: placeholdeo_v01:L_FK_humerus
+    100046: placeholdeo_v01:L_FK_knee
+    100048: placeholdeo_v01:L_FK_toe
+    100050: placeholdeo_v01:L_FK_ulna
+    100052: placeholdeo_v01:L_FK_wrist
+    100054: placeholdeo_v01:L_foot
+    100056: placeholdeo_v01:L_forearm
+    100058: placeholdeo_v01:L_hand
+    100060: placeholdeo_v01:L_humerus
+    100062: placeholdeo_v01:L_IK_ankle
+    100064: placeholdeo_v01:L_IK_ball
+    100066: placeholdeo_v01:L_IK_femur
+    100068: placeholdeo_v01:L_IK_humerus
+    100070: placeholdeo_v01:L_IK_knee
+    100072: placeholdeo_v01:L_IK_radius
+    100074: placeholdeo_v01:L_IK_toe
+    100076: placeholdeo_v01:L_IK_ulna
+    100078: placeholdeo_v01:L_IK_wrist
+    100080: placeholdeo_v01:L_index0
+    100082: placeholdeo_v01:L_index1
+    100084: placeholdeo_v01:L_index2
+    100086: placeholdeo_v01:L_index3
+    100088: placeholdeo_v01:L_index_finger
+    100090: placeholdeo_v01:L_knee
+    100092: placeholdeo_v01:L_knee 1
+    100094: placeholdeo_v01:L_kneeFK
+    100096: placeholdeo_v01:L_legFK
+    100098: placeholdeo_v01:L_radius
+    100100: placeholdeo_v01:L_shin
+    100102: placeholdeo_v01:L_shoulder
+    100104: placeholdeo_v01:L_shoulder 1
+    100106: placeholdeo_v01:L_shrug
+    100108: placeholdeo_v01:L_side
+    100110: placeholdeo_v01:L_thigh
+    100112: placeholdeo_v01:L_thighFK
+    100114: placeholdeo_v01:L_thumb
+    100116: placeholdeo_v01:L_thumb0
+    100118: placeholdeo_v01:L_thumb1
+    100120: placeholdeo_v01:L_thumb2
+    100122: placeholdeo_v01:L_thumb3
+    100124: placeholdeo_v01:L_toe
+    100126: placeholdeo_v01:L_toeFK
+    100128: placeholdeo_v01:L_ulna
+    100130: placeholdeo_v01:L_upper_arm
+    100132: placeholdeo_v01:L_wrist
+    100134: placeholdeo_v01:L_wrist 1
+    100136: placeholdeo_v01:L_wristG
+    100138: placeholdeo_v01:L_wristOffset
+    100140: placeholdeo_v01:L_wristOffsetG
+    100142: placeholdeo_v01:lumbar
+    100144: placeholdeo_v01:lumbar 1
+    100146: placeholdeo_v01:masterControl
+    100148: placeholdeo_v01:mesh
+    100150: placeholdeo_v01:mid_chest
+    100152: placeholdeo_v01:neck
+    100154: placeholdeo_v01:neck 1
+    100156: placeholdeo_v01:neck 2
+    100158: placeholdeo_v01:pelvis
+    100160: placeholdeo_v01:pelvis 1
+    100162: placeholdeo_v01:R_ankle
+    100164: placeholdeo_v01:R_ankleFK
+    100166: placeholdeo_v01:R_armG
+    100168: placeholdeo_v01:R_armIK
+    100170: placeholdeo_v01:R_ball
+    100172: placeholdeo_v01:R_clavicle
+    100174: placeholdeo_v01:R_elbow
+    100176: placeholdeo_v01:R_elbowG
+    100178: placeholdeo_v01:R_femur
+    100180: placeholdeo_v01:R_fing0
+    100182: placeholdeo_v01:R_fing1
+    100184: placeholdeo_v01:R_fing2
+    100186: placeholdeo_v01:R_fing3
+    100188: placeholdeo_v01:R_fingers
+    100190: placeholdeo_v01:R_FK_ankle
+    100192: placeholdeo_v01:R_FK_ball
+    100194: placeholdeo_v01:R_FK_femur
+    100196: placeholdeo_v01:R_FK_humerus
+    100198: placeholdeo_v01:R_FK_knee
+    100200: placeholdeo_v01:R_FK_toe
+    100202: placeholdeo_v01:R_FK_ulna
+    100204: placeholdeo_v01:R_FK_wrist
+    100206: placeholdeo_v01:R_foot
+    100208: placeholdeo_v01:R_forearm
+    100210: placeholdeo_v01:R_hand
+    100212: placeholdeo_v01:R_humerus
+    100214: placeholdeo_v01:R_IK_ankle
+    100216: placeholdeo_v01:R_IK_ball
+    100218: placeholdeo_v01:R_IK_femur
+    100220: placeholdeo_v01:R_IK_humerus
+    100222: placeholdeo_v01:R_IK_knee
+    100224: placeholdeo_v01:R_IK_radius
+    100226: placeholdeo_v01:R_IK_toe
+    100228: placeholdeo_v01:R_IK_ulna
+    100230: placeholdeo_v01:R_IK_wrist
+    100232: placeholdeo_v01:R_index0
+    100234: placeholdeo_v01:R_index1
+    100236: placeholdeo_v01:R_index2
+    100238: placeholdeo_v01:R_index3
+    100240: placeholdeo_v01:R_index_finger
+    100242: placeholdeo_v01:R_knee
+    100244: placeholdeo_v01:R_knee 1
+    100246: placeholdeo_v01:R_kneeFK
+    100248: placeholdeo_v01:R_legFK
+    100250: placeholdeo_v01:R_mirror
+    100252: placeholdeo_v01:R_radius
+    100254: placeholdeo_v01:R_shin
+    100256: placeholdeo_v01:R_shoulder
+    100258: placeholdeo_v01:R_shoulder 1
+    100260: placeholdeo_v01:R_shrug
+    100262: placeholdeo_v01:R_side
+    100264: placeholdeo_v01:R_thigh
+    100266: placeholdeo_v01:R_thighFK
+    100268: placeholdeo_v01:R_thumb
+    100270: placeholdeo_v01:R_thumb0
+    100272: placeholdeo_v01:R_thumb1
+    100274: placeholdeo_v01:R_thumb2
+    100276: placeholdeo_v01:R_thumb3
+    100278: placeholdeo_v01:R_toe
+    100280: placeholdeo_v01:R_toeFK
+    100282: placeholdeo_v01:R_ulna
+    100284: placeholdeo_v01:R_upper_arm
+    100286: placeholdeo_v01:R_wrist
+    100288: placeholdeo_v01:R_wrist 1
+    100290: placeholdeo_v01:R_wristG
+    100292: placeholdeo_v01:root
+    100294: placeholdeo_v01:root 1
+    100296: placeholdeo_v01:skeleton
+    100298: placeholdeo_v01:skull
+    100300: placeholdeo_v01:thoracic
+    100302: placeholdeo_v01:thoracic_mid
+    100304: placeholdeo_v01:torso
+    400000: //RootNode
+    400002: placeholdeo_v01:chest
+    400004: placeholdeo_v01:head
+    400006: placeholdeo_v01:head 1
+    400008: placeholdeo_v01:headGroup
+    400010: placeholdeo_v01:L_ankle
+    400012: placeholdeo_v01:L_ankleFK
+    400014: placeholdeo_v01:L_armG
+    400016: placeholdeo_v01:L_armIK
+    400018: placeholdeo_v01:L_ball
+    400020: placeholdeo_v01:L_clavicle
+    400022: placeholdeo_v01:L_elbow
+    400024: placeholdeo_v01:L_elbowG
+    400026: placeholdeo_v01:L_femur
+    400028: placeholdeo_v01:L_fing0
+    400030: placeholdeo_v01:L_fing1
+    400032: placeholdeo_v01:L_fing2
+    400034: placeholdeo_v01:L_fing3
+    400036: placeholdeo_v01:L_fingers
+    400038: placeholdeo_v01:L_FK_ankle
+    400040: placeholdeo_v01:L_FK_ball
+    400042: placeholdeo_v01:L_FK_femur
+    400044: placeholdeo_v01:L_FK_humerus
+    400046: placeholdeo_v01:L_FK_knee
+    400048: placeholdeo_v01:L_FK_toe
+    400050: placeholdeo_v01:L_FK_ulna
+    400052: placeholdeo_v01:L_FK_wrist
+    400054: placeholdeo_v01:L_foot
+    400056: placeholdeo_v01:L_forearm
+    400058: placeholdeo_v01:L_hand
+    400060: placeholdeo_v01:L_humerus
+    400062: placeholdeo_v01:L_IK_ankle
+    400064: placeholdeo_v01:L_IK_ball
+    400066: placeholdeo_v01:L_IK_femur
+    400068: placeholdeo_v01:L_IK_humerus
+    400070: placeholdeo_v01:L_IK_knee
+    400072: placeholdeo_v01:L_IK_radius
+    400074: placeholdeo_v01:L_IK_toe
+    400076: placeholdeo_v01:L_IK_ulna
+    400078: placeholdeo_v01:L_IK_wrist
+    400080: placeholdeo_v01:L_index0
+    400082: placeholdeo_v01:L_index1
+    400084: placeholdeo_v01:L_index2
+    400086: placeholdeo_v01:L_index3
+    400088: placeholdeo_v01:L_index_finger
+    400090: placeholdeo_v01:L_knee
+    400092: placeholdeo_v01:L_knee 1
+    400094: placeholdeo_v01:L_kneeFK
+    400096: placeholdeo_v01:L_legFK
+    400098: placeholdeo_v01:L_radius
+    400100: placeholdeo_v01:L_shin
+    400102: placeholdeo_v01:L_shoulder
+    400104: placeholdeo_v01:L_shoulder 1
+    400106: placeholdeo_v01:L_shrug
+    400108: placeholdeo_v01:L_side
+    400110: placeholdeo_v01:L_thigh
+    400112: placeholdeo_v01:L_thighFK
+    400114: placeholdeo_v01:L_thumb
+    400116: placeholdeo_v01:L_thumb0
+    400118: placeholdeo_v01:L_thumb1
+    400120: placeholdeo_v01:L_thumb2
+    400122: placeholdeo_v01:L_thumb3
+    400124: placeholdeo_v01:L_toe
+    400126: placeholdeo_v01:L_toeFK
+    400128: placeholdeo_v01:L_ulna
+    400130: placeholdeo_v01:L_upper_arm
+    400132: placeholdeo_v01:L_wrist
+    400134: placeholdeo_v01:L_wrist 1
+    400136: placeholdeo_v01:L_wristG
+    400138: placeholdeo_v01:L_wristOffset
+    400140: placeholdeo_v01:L_wristOffsetG
+    400142: placeholdeo_v01:lumbar
+    400144: placeholdeo_v01:lumbar 1
+    400146: placeholdeo_v01:masterControl
+    400148: placeholdeo_v01:mesh
+    400150: placeholdeo_v01:mid_chest
+    400152: placeholdeo_v01:neck
+    400154: placeholdeo_v01:neck 1
+    400156: placeholdeo_v01:neck 2
+    400158: placeholdeo_v01:pelvis
+    400160: placeholdeo_v01:pelvis 1
+    400162: placeholdeo_v01:R_ankle
+    400164: placeholdeo_v01:R_ankleFK
+    400166: placeholdeo_v01:R_armG
+    400168: placeholdeo_v01:R_armIK
+    400170: placeholdeo_v01:R_ball
+    400172: placeholdeo_v01:R_clavicle
+    400174: placeholdeo_v01:R_elbow
+    400176: placeholdeo_v01:R_elbowG
+    400178: placeholdeo_v01:R_femur
+    400180: placeholdeo_v01:R_fing0
+    400182: placeholdeo_v01:R_fing1
+    400184: placeholdeo_v01:R_fing2
+    400186: placeholdeo_v01:R_fing3
+    400188: placeholdeo_v01:R_fingers
+    400190: placeholdeo_v01:R_FK_ankle
+    400192: placeholdeo_v01:R_FK_ball
+    400194: placeholdeo_v01:R_FK_femur
+    400196: placeholdeo_v01:R_FK_humerus
+    400198: placeholdeo_v01:R_FK_knee
+    400200: placeholdeo_v01:R_FK_toe
+    400202: placeholdeo_v01:R_FK_ulna
+    400204: placeholdeo_v01:R_FK_wrist
+    400206: placeholdeo_v01:R_foot
+    400208: placeholdeo_v01:R_forearm
+    400210: placeholdeo_v01:R_hand
+    400212: placeholdeo_v01:R_humerus
+    400214: placeholdeo_v01:R_IK_ankle
+    400216: placeholdeo_v01:R_IK_ball
+    400218: placeholdeo_v01:R_IK_femur
+    400220: placeholdeo_v01:R_IK_humerus
+    400222: placeholdeo_v01:R_IK_knee
+    400224: placeholdeo_v01:R_IK_radius
+    400226: placeholdeo_v01:R_IK_toe
+    400228: placeholdeo_v01:R_IK_ulna
+    400230: placeholdeo_v01:R_IK_wrist
+    400232: placeholdeo_v01:R_index0
+    400234: placeholdeo_v01:R_index1
+    400236: placeholdeo_v01:R_index2
+    400238: placeholdeo_v01:R_index3
+    400240: placeholdeo_v01:R_index_finger
+    400242: placeholdeo_v01:R_knee
+    400244: placeholdeo_v01:R_knee 1
+    400246: placeholdeo_v01:R_kneeFK
+    400248: placeholdeo_v01:R_legFK
+    400250: placeholdeo_v01:R_mirror
+    400252: placeholdeo_v01:R_radius
+    400254: placeholdeo_v01:R_shin
+    400256: placeholdeo_v01:R_shoulder
+    400258: placeholdeo_v01:R_shoulder 1
+    400260: placeholdeo_v01:R_shrug
+    400262: placeholdeo_v01:R_side
+    400264: placeholdeo_v01:R_thigh
+    400266: placeholdeo_v01:R_thighFK
+    400268: placeholdeo_v01:R_thumb
+    400270: placeholdeo_v01:R_thumb0
+    400272: placeholdeo_v01:R_thumb1
+    400274: placeholdeo_v01:R_thumb2
+    400276: placeholdeo_v01:R_thumb3
+    400278: placeholdeo_v01:R_toe
+    400280: placeholdeo_v01:R_toeFK
+    400282: placeholdeo_v01:R_ulna
+    400284: placeholdeo_v01:R_upper_arm
+    400286: placeholdeo_v01:R_wrist
+    400288: placeholdeo_v01:R_wrist 1
+    400290: placeholdeo_v01:R_wristG
+    400292: placeholdeo_v01:root
+    400294: placeholdeo_v01:root 1
+    400296: placeholdeo_v01:skeleton
+    400298: placeholdeo_v01:skull
+    400300: placeholdeo_v01:thoracic
+    400302: placeholdeo_v01:thoracic_mid
+    400304: placeholdeo_v01:torso
+    4300000: placeholdeo_v01:head
+    4300002: placeholdeo_v01:torso
+    4300004: placeholdeo_v01:neck
+    4300006: placeholdeo_v01:L_shoulder
+    4300008: placeholdeo_v01:L_hand
+    4300010: placeholdeo_v01:L_index_finger
+    4300012: placeholdeo_v01:L_fingers
+    4300014: placeholdeo_v01:L_thumb
+    4300016: placeholdeo_v01:L_forearm
+    4300018: placeholdeo_v01:L_upper_arm
+    4300020: placeholdeo_v01:L_thigh
+    4300022: placeholdeo_v01:L_shin
+    4300024: placeholdeo_v01:L_foot
+    4300026: placeholdeo_v01:L_knee
+    4300028: placeholdeo_v01:R_shoulder
+    4300030: placeholdeo_v01:R_hand
+    4300032: placeholdeo_v01:R_index_finger
+    4300034: placeholdeo_v01:R_fingers
+    4300036: placeholdeo_v01:R_thumb
+    4300038: placeholdeo_v01:R_forearm
+    4300040: placeholdeo_v01:R_upper_arm
+    4300042: placeholdeo_v01:R_thigh
+    4300044: placeholdeo_v01:R_shin
+    4300046: placeholdeo_v01:R_foot
+    4300048: placeholdeo_v01:R_knee
+    7400000: Death1
+    9500000: //RootNode
+    13700000: placeholdeo_v01:head
+    13700002: placeholdeo_v01:L_fingers
+    13700004: placeholdeo_v01:L_foot
+    13700006: placeholdeo_v01:L_forearm
+    13700008: placeholdeo_v01:L_hand
+    13700010: placeholdeo_v01:L_index_finger
+    13700012: placeholdeo_v01:L_knee
+    13700014: placeholdeo_v01:L_shin
+    13700016: placeholdeo_v01:L_shoulder 1
+    13700018: placeholdeo_v01:L_thigh
+    13700020: placeholdeo_v01:L_thumb
+    13700022: placeholdeo_v01:L_upper_arm
+    13700024: placeholdeo_v01:neck
+    13700026: placeholdeo_v01:R_fingers
+    13700028: placeholdeo_v01:R_foot
+    13700030: placeholdeo_v01:R_forearm
+    13700032: placeholdeo_v01:R_hand
+    13700034: placeholdeo_v01:R_index_finger
+    13700036: placeholdeo_v01:R_knee
+    13700038: placeholdeo_v01:R_shin
+    13700040: placeholdeo_v01:R_shoulder 1
+    13700042: placeholdeo_v01:R_thigh
+    13700044: placeholdeo_v01:R_thumb
+    13700046: placeholdeo_v01:R_upper_arm
+    13700048: placeholdeo_v01:torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Death1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: placeholdeo_v01:masterControl
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:headGroup
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:headGroup/placeholdeo_v01:head
+          1
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG/placeholdeo_v01:L_shoulder
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG/placeholdeo_v01:L_shoulder/placeholdeo_v01:L_elbowG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG/placeholdeo_v01:L_shoulder/placeholdeo_v01:L_elbowG/placeholdeo_v01:L_elbow
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG/placeholdeo_v01:L_shoulder/placeholdeo_v01:L_elbowG/placeholdeo_v01:L_elbow/placeholdeo_v01:L_wristG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armG/placeholdeo_v01:L_shoulder/placeholdeo_v01:L_elbowG/placeholdeo_v01:L_elbow/placeholdeo_v01:L_wristG/placeholdeo_v01:L_wrist
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_armIK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_wristOffsetG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:L_wristOffsetG/placeholdeo_v01:L_wristOffset
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG/placeholdeo_v01:R_shoulder
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG/placeholdeo_v01:R_shoulder/placeholdeo_v01:R_elbowG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG/placeholdeo_v01:R_shoulder/placeholdeo_v01:R_elbowG/placeholdeo_v01:R_elbow
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG/placeholdeo_v01:R_shoulder/placeholdeo_v01:R_elbowG/placeholdeo_v01:R_elbow/placeholdeo_v01:R_wristG
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armG/placeholdeo_v01:R_shoulder/placeholdeo_v01:R_elbowG/placeholdeo_v01:R_elbow/placeholdeo_v01:R_wristG/placeholdeo_v01:R_wrist
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:R_armIK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:L_legFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:L_legFK/placeholdeo_v01:L_thighFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:L_legFK/placeholdeo_v01:L_thighFK/placeholdeo_v01:L_kneeFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:L_legFK/placeholdeo_v01:L_thighFK/placeholdeo_v01:L_kneeFK/placeholdeo_v01:L_ankleFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:L_legFK/placeholdeo_v01:L_thighFK/placeholdeo_v01:L_kneeFK/placeholdeo_v01:L_ankleFK/placeholdeo_v01:L_toeFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest/placeholdeo_v01:mid_chest
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest/placeholdeo_v01:mid_chest/placeholdeo_v01:L_shrug
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest/placeholdeo_v01:mid_chest/placeholdeo_v01:neck
+          1
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest/placeholdeo_v01:mid_chest/placeholdeo_v01:R_mirror
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:lumbar/placeholdeo_v01:chest/placeholdeo_v01:mid_chest/placeholdeo_v01:R_mirror/placeholdeo_v01:R_shrug
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:pelvis
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:R_legFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:R_legFK/placeholdeo_v01:R_thighFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:R_legFK/placeholdeo_v01:R_thighFK/placeholdeo_v01:R_kneeFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:R_legFK/placeholdeo_v01:R_thighFK/placeholdeo_v01:R_kneeFK/placeholdeo_v01:R_ankleFK
+        weight: 1
+      - path: placeholdeo_v01:masterControl/placeholdeo_v01:root/placeholdeo_v01:R_legFK/placeholdeo_v01:R_thighFK/placeholdeo_v01:R_kneeFK/placeholdeo_v01:R_ankleFK/placeholdeo_v01:R_toeFK
+        weight: 1
+      - path: placeholdeo_v01:mesh
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:head
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_foot
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_knee
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shin
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_forearm
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_hand
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_hand/placeholdeo_v01:L_fingers
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_hand/placeholdeo_v01:L_index_finger
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_hand/placeholdeo_v01:L_thumb
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_shoulder
+          1/placeholdeo_v01:L_upper_arm
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:L_side/placeholdeo_v01:L_thigh
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:neck
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_foot
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_knee
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shin
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_forearm
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_hand
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_hand/placeholdeo_v01:R_fingers
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_hand/placeholdeo_v01:R_index_finger
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_hand/placeholdeo_v01:R_thumb
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_shoulder
+          1/placeholdeo_v01:R_upper_arm
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:R_side/placeholdeo_v01:R_thigh
+        weight: 1
+      - path: placeholdeo_v01:mesh/placeholdeo_v01:torso
+        weight: 1
+      - path: placeholdeo_v01:skeleton
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_FK_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_FK_humerus/placeholdeo_v01:L_FK_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_FK_humerus/placeholdeo_v01:L_FK_ulna/placeholdeo_v01:L_FK_wrist
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_fing0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_fing0/placeholdeo_v01:L_fing1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_fing0/placeholdeo_v01:L_fing1/placeholdeo_v01:L_fing2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_fing0/placeholdeo_v01:L_fing1/placeholdeo_v01:L_fing2/placeholdeo_v01:L_fing3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_index0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_index0/placeholdeo_v01:L_index1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_index0/placeholdeo_v01:L_index1/placeholdeo_v01:L_index2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_index0/placeholdeo_v01:L_index1/placeholdeo_v01:L_index2/placeholdeo_v01:L_index3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_thumb0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_thumb0/placeholdeo_v01:L_thumb1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_thumb0/placeholdeo_v01:L_thumb1/placeholdeo_v01:L_thumb2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_humerus/placeholdeo_v01:L_ulna/placeholdeo_v01:L_radius/placeholdeo_v01:L_wrist
+          1/placeholdeo_v01:L_thumb0/placeholdeo_v01:L_thumb1/placeholdeo_v01:L_thumb2/placeholdeo_v01:L_thumb3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_IK_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_IK_humerus/placeholdeo_v01:L_IK_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_IK_humerus/placeholdeo_v01:L_IK_ulna/placeholdeo_v01:L_IK_radius
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:L_clavicle/placeholdeo_v01:L_IK_humerus/placeholdeo_v01:L_IK_ulna/placeholdeo_v01:L_IK_radius/placeholdeo_v01:L_IK_wrist
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:neck
+          2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:neck
+          2/placeholdeo_v01:skull
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_FK_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_FK_humerus/placeholdeo_v01:R_FK_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_FK_humerus/placeholdeo_v01:R_FK_ulna/placeholdeo_v01:R_FK_wrist
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_fing0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_fing0/placeholdeo_v01:R_fing1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_fing0/placeholdeo_v01:R_fing1/placeholdeo_v01:R_fing2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_fing0/placeholdeo_v01:R_fing1/placeholdeo_v01:R_fing2/placeholdeo_v01:R_fing3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_index0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_index0/placeholdeo_v01:R_index1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_index0/placeholdeo_v01:R_index1/placeholdeo_v01:R_index2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_index0/placeholdeo_v01:R_index1/placeholdeo_v01:R_index2/placeholdeo_v01:R_index3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_thumb0
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_thumb0/placeholdeo_v01:R_thumb1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_thumb0/placeholdeo_v01:R_thumb1/placeholdeo_v01:R_thumb2
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_humerus/placeholdeo_v01:R_ulna/placeholdeo_v01:R_radius/placeholdeo_v01:R_wrist
+          1/placeholdeo_v01:R_thumb0/placeholdeo_v01:R_thumb1/placeholdeo_v01:R_thumb2/placeholdeo_v01:R_thumb3
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_IK_humerus
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_IK_humerus/placeholdeo_v01:R_IK_ulna
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_IK_humerus/placeholdeo_v01:R_IK_ulna/placeholdeo_v01:R_IK_radius
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:lumbar
+          1/placeholdeo_v01:thoracic/placeholdeo_v01:thoracic_mid/placeholdeo_v01:R_clavicle/placeholdeo_v01:R_IK_humerus/placeholdeo_v01:R_IK_ulna/placeholdeo_v01:R_IK_radius/placeholdeo_v01:R_IK_wrist
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_femur/placeholdeo_v01:L_knee 1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_femur/placeholdeo_v01:L_knee 1/placeholdeo_v01:L_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_femur/placeholdeo_v01:L_knee 1/placeholdeo_v01:L_ankle/placeholdeo_v01:L_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_femur/placeholdeo_v01:L_knee 1/placeholdeo_v01:L_ankle/placeholdeo_v01:L_ball/placeholdeo_v01:L_toe
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_FK_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_FK_femur/placeholdeo_v01:L_FK_knee
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_FK_femur/placeholdeo_v01:L_FK_knee/placeholdeo_v01:L_FK_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_FK_femur/placeholdeo_v01:L_FK_knee/placeholdeo_v01:L_FK_ankle/placeholdeo_v01:L_FK_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_FK_femur/placeholdeo_v01:L_FK_knee/placeholdeo_v01:L_FK_ankle/placeholdeo_v01:L_FK_ball/placeholdeo_v01:L_FK_toe
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_IK_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_IK_femur/placeholdeo_v01:L_IK_knee
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_IK_femur/placeholdeo_v01:L_IK_knee/placeholdeo_v01:L_IK_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_IK_femur/placeholdeo_v01:L_IK_knee/placeholdeo_v01:L_IK_ankle/placeholdeo_v01:L_IK_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:L_IK_femur/placeholdeo_v01:L_IK_knee/placeholdeo_v01:L_IK_ankle/placeholdeo_v01:L_IK_ball/placeholdeo_v01:L_IK_toe
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_femur/placeholdeo_v01:R_knee 1
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_femur/placeholdeo_v01:R_knee 1/placeholdeo_v01:R_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_femur/placeholdeo_v01:R_knee 1/placeholdeo_v01:R_ankle/placeholdeo_v01:R_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_femur/placeholdeo_v01:R_knee 1/placeholdeo_v01:R_ankle/placeholdeo_v01:R_ball/placeholdeo_v01:R_toe
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_FK_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_FK_femur/placeholdeo_v01:R_FK_knee
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_FK_femur/placeholdeo_v01:R_FK_knee/placeholdeo_v01:R_FK_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_FK_femur/placeholdeo_v01:R_FK_knee/placeholdeo_v01:R_FK_ankle/placeholdeo_v01:R_FK_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_FK_femur/placeholdeo_v01:R_FK_knee/placeholdeo_v01:R_FK_ankle/placeholdeo_v01:R_FK_ball/placeholdeo_v01:R_FK_toe
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_IK_femur
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_IK_femur/placeholdeo_v01:R_IK_knee
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_IK_femur/placeholdeo_v01:R_IK_knee/placeholdeo_v01:R_IK_ankle
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_IK_femur/placeholdeo_v01:R_IK_knee/placeholdeo_v01:R_IK_ankle/placeholdeo_v01:R_IK_ball
+        weight: 1
+      - path: placeholdeo_v01:skeleton/placeholdeo_v01:root 1/placeholdeo_v01:pelvis
+          1/placeholdeo_v01:R_IK_femur/placeholdeo_v01:R_IK_knee/placeholdeo_v01:R_IK_ankle/placeholdeo_v01:R_IK_ball/placeholdeo_v01:R_IK_toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
